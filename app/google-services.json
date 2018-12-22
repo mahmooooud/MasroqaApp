@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "276471958876",
+    "firebase_url": "https://masroqaapp.firebaseio.com",
+    "project_id": "masroqaapp",
+    "storage_bucket": "masroqaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276471958876:android:991491c793a18b87",
+        "android_client_info": {
+          "package_name": "com.example.mahmoudahmed.masroqaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276471958876-uv0r0srp6q2vllqpp40pmvnl55dj0ub9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mahmoudahmed.masroqaapp",
+            "certificate_hash": "f0f5b0b3eaad3946c1e3f361a190dfb8719a81d4"
+          }
+        },
+        {
+          "client_id": "276471958876-24qjgct4m77ertqj0qk1irap04ruvb3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3jhHJouW7JRNunSCE9RnDuQbCotWS8-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276471958876-24qjgct4m77ertqj0qk1irap04ruvb3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
