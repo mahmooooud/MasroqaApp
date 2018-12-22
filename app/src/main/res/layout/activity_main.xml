@@ -1,18 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ece5d5"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
     tools:context=".MainActivity">
-
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
     <TextView
+        android:id="@+id/txLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textColor="#c8211e"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etUserName"
+        style="@style/Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Email Address*"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textColorHint="#938f8f"
+        />
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Password*"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textColorHint="#938f8f"
+        />
+    <Button
+        android:id="@+id/bLogin"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:elevation="0dp"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="50dp"
+        android:text="Register"
+        android:textColor="#c8211e"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
